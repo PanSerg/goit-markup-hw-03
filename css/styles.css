@@ -34,6 +34,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  margin-bottom: 50px;
   outline: 2px solid tomato;
 }
 
@@ -46,7 +47,6 @@ img {
   min-height: 75;
   background-color: teal;
   color: fff;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
@@ -64,6 +64,8 @@ body {
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -87,9 +89,9 @@ body {
 }
 
 .head-title {
-
-
-  font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -142,6 +144,7 @@ ul {
 }
 
 .site-nav-link {
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -156,6 +159,7 @@ ul {
 }
 
 .contact {
+      display: inline-block;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
@@ -237,6 +241,7 @@ ul {
 
 /* Button */
 .button-color {
+  
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -255,6 +260,8 @@ ul {
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+    border-radius: 4px;
+    padding: 10px 32px;
     text-transform: uppercase;
     
       font-weight: 700;
