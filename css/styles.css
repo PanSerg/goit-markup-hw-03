@@ -69,6 +69,11 @@ body {
     list-style: none;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .lable {
     color: var(--primary-white-color);
 }
@@ -91,6 +96,9 @@ body {
 .head-title {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 200px;
+  
+    padding-right: 452px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -185,7 +193,9 @@ ul {
 }
 
 .section-title {
- 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 94px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -194,8 +204,28 @@ ul {
     color: var(--main-text-color);
 }
 
+.section-title-bg {
+  background-color: #F5F4FA;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 94px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.16;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--main-text-color);
+}
+
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .features-title {
- 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -205,7 +235,8 @@ ul {
 }
 
 .features-text {
- 
+  margin-top: 0;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -328,6 +359,7 @@ font-family: 'Roboto';
 
 /* Спрятанный заголовок */
 .visually-hidden {
+  
   position: absolute;
   white-space: nowrap;
   width: 1px;
