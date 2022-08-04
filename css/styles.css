@@ -6,7 +6,6 @@
   --secondary-font: 'Raleway', cursive;
   --primary-white-color: #ffffff;
   --lable-color: #000000
-  
 }
 
 html {
@@ -19,9 +18,7 @@ html {
   box-sizing: inherit;
 }
 
-div {
-  display: inline-block;
-}
+displey: flex
 
 img {
   display: block;
@@ -30,12 +27,11 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
+  display: flex;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  margin-bottom: 50px;
-  outline: 2px solid tomato;
 }
 
 .div {
@@ -59,11 +55,17 @@ body {
   background-color: var(--primary-white-color);
 }
 
+.hider-container {
+  display: flex;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
+  display: flex;
+  align-items: center;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -94,11 +96,13 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .head-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 200px;
-  
-    padding-right: 452px;
+  margin-top: 0;
+  padding-bottom: 0;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 280px;
+   
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -112,6 +116,10 @@ h1,h2,h3,h4,h5,h6,p {
 /* Logo */
 
 .logo {
+  margin-top: 24px;
+  margin-right: 93px;
+  margin-bottom: 25px;
+  margin-left: 215px;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -122,6 +130,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 ul {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
   list-style: none;
 }
 
@@ -152,7 +163,7 @@ ul {
 }
 
 .site-nav-link {
-  
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -167,7 +178,9 @@ ul {
 }
 
 .contact {
-      display: inline-block;
+    margin-top: 0;
+    padding-bottom: 0;
+      display: flex;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
