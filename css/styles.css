@@ -21,8 +21,6 @@ html {
  
 }
 
-
-
 img {
   display: block;
   max-width: 100%;
@@ -108,6 +106,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .pointer {
+    display: flex;
     cursor: pointer;
 }
 
@@ -156,6 +155,11 @@ ul {
   list-style: none;
 }
 
+.example {
+  display: flex;
+  width: calc((100% - 60px) / 3);
+}
+
 .logo-dark {
   font-weight: 700;
     font-size: 26px;
@@ -184,7 +188,6 @@ ul {
 
 .site-nav {
   display: flex;
-  
 }
 
 .site-nav-link {
