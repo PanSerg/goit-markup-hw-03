@@ -26,9 +26,9 @@
                 <li class="site-list-item site-nav"><a class="site-nav-link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-        <li><a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="site-list-item style-flex">
+        <li><a class="site-list-item contact link" href="mailto:info@devstudio.com">&#9993; info@devstudio.com</a></li>
+        <li><a class="site-list-item contact link" href="tel:+380961111111">&#9990; +38 096 111 11 11</a></li>
         </ul>
     </div>
     </header>
@@ -36,55 +36,58 @@
     <section> 
         <div class="container">
         <h1 class="visually-hidden">Примеры работ</h1>
-   <ul class="pointer">
-    <li><button type="button" class="pointer filter-button button-color">Все</button></li>
-    <li><button type="button" class="site-nav-link pointer filter-button">Веб сайты</button></li>
-    <li><button type="button" class="site-nav-link pointer filter-button">Приложения</button></li>
-    <li><button type="button" class="site-nav-link pointer filter-button">Дизайн</button></li>
-    <li><button type="button" class="site-nav-link pointer filter-button">Маркетинг</button></li>
+   <ul class="menu-li pointer">
+    <li><button type="button" class="menu-li pointer filter-button button-color">Все</button></li>
+    <li><button type="button" class="menu-li site-nav-link pointer filter-button">Веб сайты</button></li>
+    <li><button type="button" class="menu-li site-nav-link pointer filter-button">Приложения</button></li>
+    <li><button type="button" class="menu-li site-nav-link pointer filter-button">Дизайн</button></li>
+    <li><button type="button" class="menu-li site-nav-link pointer filter-button">Маркетинг</button></li>
    </ul>
-        <ul class="example">
-            <li>
+        <ul> 
+            <div class="test-container example">
+                <div class="flex-container">
+            <li class="flex-element">
                 <img src="./images/works/work1.jpg" alt="ноутбук" width="370" height="294" />
       <h2 class="themes">Технокряк</h2>
       <p class="thems-text">Веб-сайт</p>
+    
            </li>
-           <li>
+           <li class="flex-element">
             <img src="./images/works/work2.jpg" alt="Баскетбол" width="370" height="294" />
             <h2 class="themes">Постер New Orlean vs Golden Star</h2>
             <p class="thems-text">Дизайн</p>
            </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work3.jpg" alt="Рыба" width="370" height="294" />
                 <h2 class="themes">Ресторан Seafood</h2>
                 <p class="thems-text">Приложение</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work4.jpg" alt="Наушники" width="370" height="294" />
                 <h2 class="themes">Проект Prime</h2>
                 <p class="thems-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work5.jpg" alt="Коробки" width="370" height="294" />
                 <h2 class="themes">Проект Boxes</h2>
                 <p class="thems-text">Приложение</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work6.jpg" alt="Монитор" width="370" height="294" />
                 <h2 class="themes">Inspiration has no Borders</h2>
                 <p class="thems-text">Веб-сайт</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work7.jpg" alt="Книга" width="370" height="294" />
                 <h2 class="themes">Издание Limited Edition</h2>
                 <p class="thems-text">Дизайн</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work8.jpg" alt="Лейбл" width="370" height="294" />
                 <h2 class="themes">Проект LAB</h2>
                 <p class="thems-text">Маркетинг</p>
             </li>
-            <li>
+            <li class="flex-element">
                 <img src="./images/works/work9.jpg" alt="Ноутбук 2" width="370" height="294" />
                 <h2 class="themes">Growing Business</h2>
                 <p class="thems-text">Приложение</p>
@@ -93,7 +96,7 @@
             </div>
     </section>
 </main>
-
+    <div class="container">
     <footer class="style-footer">
         <a class="logo" href="">Web<span class="lable">Studio</span></a>
         <address>
@@ -107,6 +110,7 @@
             </ul>
         </address>
     </footer>
+    </div>
 </body>
 
 </html>
