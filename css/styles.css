@@ -212,6 +212,12 @@ ul {
 .filter-button {
   border-radius: 4px;
   border: none;
+  padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    background-color: #F5F4FA;
+    color: #212121;
 }
 
 .menu-li {
@@ -245,6 +251,13 @@ ul {
 .site-nav-link:focus {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
+}
+
+.site-nav-link-p:hover,
+.site-nav-link-p:focus {
+  color: #212121;
+  background-color: #F5F5F5;
+  border: 4px solid var(--accent-color);
 }
 
 .contact {
@@ -359,16 +372,53 @@ ul {
 }
 
 /* Button */
+
+.button-oll {
+    padding-top: 6px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    width: 73px;
+    height: 38px;
+}
+
+.button-sits {
+  width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+}
+
+.botton-tools {
+    width: 112px;
+      height: 38px;
+      left: 726px;
+      top: 174px;
+}
+
+.button-design {
+  width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+}
+
+.button-marketing {
+  width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+}
+
 .button-color {
-  width: 112px;
+width: 112px;
 height: 38px;
 left: 726px;
 top: 174px;
-
-background: #F5F4FA;
-border-radius: 4px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+border-radius: var(--accent-color);
+border-radius: 4px; 
+color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
 
 .properties {
