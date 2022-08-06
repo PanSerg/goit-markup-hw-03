@@ -21,6 +21,11 @@ html {
  
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -38,12 +43,9 @@ img {
   display: block;
 }
 
-.site-list-item {
-  margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: auto;
+.contacts {
   display: flex;
+
 }
 
 .style-flex {
@@ -53,7 +55,6 @@ img {
 
 .site-list-work:not(:last-child) {
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 
 .site-command {
@@ -67,8 +68,7 @@ img {
 }
 
 .team {
-  margin-bottom: 94;
-  padding: 50px;
+  
 }
   
 .box {
@@ -130,6 +130,7 @@ h1,h2,h3,h4,h5,h6,p {
 .head-title {
   margin-top: 0;
   padding-bottom: 0;
+  margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -143,12 +144,11 @@ h1,h2,h3,h4,h5,h6,p {
 /* Logo */
 
 .logo {
-  margin-right: 93px;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.92;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -221,7 +221,7 @@ ul {
 }
 
 .menu-li {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   text-align: center;
   margin-right: 8px;
   justify-content: center;
@@ -235,11 +235,13 @@ ul {
     color: #212121;
 }
 
-.site-nav {
-  display: flex;
+.contacts-link {
+
 }
 
 .site-nav-link {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -260,9 +262,6 @@ ul {
 }
 
 .contact {
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-bottom: 32px; 
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
@@ -290,8 +289,7 @@ ul {
 .section-title {
     margin-top: 0;
     margin-bottom: 0;
-    margin-top: 118px;
-    padding-bottom: 94px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -302,15 +300,6 @@ ul {
 
 .section-title-bg {
   background-color: #F5F4FA;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-bottom: 94px;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.16;
-      text-align: center;
-      letter-spacing: 0.03em;
-      color: var(--main-text-color);
 }
 
 .section.no-padding {
@@ -331,8 +320,6 @@ ul {
 }
 
 .features-text {
-  margin-right: 30px;
-  padding-bottom: 50px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -341,8 +328,7 @@ ul {
 }
 
 .tim-title {
-  margin-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -350,9 +336,12 @@ ul {
   color: var(--main-text-color);
 }
 
-.tim-text {
-  
+.traits {
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.tim-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -495,13 +484,14 @@ background-color: var(--accent-color);
 }
 
 .style-footer {
-  margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2F303A;;
 }
 
 .logo-footer {
+  display: block;
   margin-bottom: 20px;
-  padding-bottom: 20px;
 }
 
 .street {
