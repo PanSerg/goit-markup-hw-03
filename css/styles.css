@@ -103,6 +103,7 @@ body {
 }
 
 .hider-container {
+  align-items: center;
   display: flex;
 }
 
@@ -119,11 +120,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 .lable {
     color: var(--primary-white-color);
-}
-
-.pointer {
-    display: flex;
-    cursor: pointer;
 }
 
 .head {
@@ -176,6 +172,24 @@ ul {
   flex-wrap: wrap;
 }
 
+.pictures {
+  box-sizing: border-box;
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+.tim-card {
+
+  background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .test-conntainer {
   width: 1230px;
   padding-left: 15px;
@@ -186,18 +200,14 @@ ul {
 }
 
 .flex-container {
-  
   display: flex;
   flex-wrap: wrap;
-    
 }
 
 .flex-element {
-  
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  
 }
 
 .flex-element:nth-child(3n) {
@@ -208,7 +218,12 @@ ul {
   margin-bottom: 0;
 }
 
+.menu-distance:not(:last-child) {
+  margin-right: 8px;
+} 
+
 .logo-dark {
+  margin-right: 93px;
   font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -228,24 +243,23 @@ ul {
   border-radius: 4px;
   border: none;
   padding-top: 6px;
-    padding-right: 22px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    background-color: #F5F4FA;
-    color: #212121;
-}
-
-.menu-li {
- 
-  justify-content: center;
-  font-family: 'Roboto';
-  font-style: normal;
-    font-weight: 500;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  background-color: #F5F4FA;
+  font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-text-color);
+}
+
+.filter {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .contacts-link {
@@ -285,6 +299,17 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: #212121;
+  background-color: #F5F5F5;
+}
+
+.button-blue {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .current {
@@ -346,12 +371,15 @@ ul {
 }
 
 .features-text {
-  margin-right: 30px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .section-bottom {
@@ -362,21 +390,18 @@ ul {
 
 .box-sizing {
   box-sizing: border-box;
-  
     position: absolute;
     width: 370px;
     height: 404px;
     left: 215px;
     top: 262px;
-  
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
 
 .tim-title {
   padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -385,12 +410,17 @@ ul {
 }
 
 .tim-text {
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
+.tim-title, .tim-text {
+  align-items: center;
+} 
 
 .head {
     font-weight: 900;
@@ -404,13 +434,6 @@ ul {
 
 /* Button */
 
-.button-oll {
-    padding-top: 6px;
-    padding-right: 25px;
-    padding-bottom: 6px;
-    padding-left: 25px;
-    width: 73px;
-    height: 38px;
 }
 
 .button-sits {
@@ -436,16 +459,9 @@ ul {
 
 .button-marketing {
   width: 130px;
-    height: 38px;
-    left: 957px;
-    top: 174px;
-}
-
-.button-color {
-
-border-radius: 4px; 
-color: var(--primary-white-color);
-background-color: var(--accent-color);
+  height: 38px;
+  left: 957px;
+  top: 174px;
 }
 
 .properties {
@@ -489,12 +505,11 @@ background-color: var(--accent-color);
 }
 
 .thems-text {
-      
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.88;
-      letter-spacing: 0.03em;
-      color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 
 /* Футер */
