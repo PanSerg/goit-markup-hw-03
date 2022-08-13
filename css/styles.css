@@ -39,7 +39,7 @@ img {
 }
 
 .header {
-  background: 1px solid #F5F5F5;
+  border-bottom: 1px solid #F5F5F5;
 }
 
 .div {
@@ -47,9 +47,9 @@ img {
 }
 
 .contacts {
+  margin-right: 50px;
   display: flex;
   margin-left: auto;
-  mb50
 }
 
 .style-flex {
@@ -103,14 +103,13 @@ body {
 }
 
 .hider-container {
-  align-items: center;
   display: flex;
+  align-items: center;
 }
 
 .link {
     text-decoration: none;
     display: block;
-    
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -125,13 +124,6 @@ h1,h2,h3,h4,h5,h6,p {
 .head {
     padding-top: 200px;
     padding-bottom: 200px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
     background-color: #2F303A;;
 }
 
@@ -145,13 +137,13 @@ h1,h2,h3,h4,h5,h6,p {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-  
     color: #FFFFFF;
 }
 
 /* Logo */
 
 .logo {
+  margin-right: 93px;
   text-decoration: none;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -173,7 +165,7 @@ ul {
 }
 
 .pictures {
-  box-sizing: border-box;
+
   border: 1px solid #EEEEEE;
   background: #FFFFFF;
   padding-top: 20px;
@@ -183,11 +175,8 @@ ul {
 }
 
 .tim-card {
-
-  background: #FFFFFF;
-    /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  padding: 30px 0;
 }
 
 .test-conntainer {
@@ -196,7 +185,6 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .flex-container {
@@ -223,11 +211,10 @@ ul {
 } 
 
 .logo-dark {
-  margin-right: 93px;
   font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--lable-color);
 }
 
@@ -259,7 +246,6 @@ ul {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  
 }
 
 .contacts-link {
@@ -283,7 +269,6 @@ ul {
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
-  background-color: var(--primary-white-color);
 }
 
 .site-nav-link-p:hover,
@@ -293,7 +278,6 @@ ul {
 }
 
 .contact {
-  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -303,17 +287,12 @@ ul {
 
 .link:hover,
 .link:focus {
-  color: #212121;
-  background-color: #F5F5F5;
+  color: var(--accent-color);
 }
 
 .button-blue {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
-
-.current {
-  color: var(--accent-color);
 }
 
 .contact-tel {
@@ -383,8 +362,6 @@ ul {
 }
 
 .section-bottom {
-  margin-top: 0;
-  margin-bottom: 0;
   padding-top: 0;
 }
 
@@ -400,8 +377,7 @@ ul {
 }
 
 .tim-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -410,7 +386,6 @@ ul {
 }
 
 .tim-text {
-  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -433,8 +408,6 @@ ul {
 }
 
 /* Button */
-
-}
 
 .button-sits {
   width: 125px;
@@ -475,9 +448,8 @@ ul {
   color: var(--primary-white-color);
 }
 
-.button.primary {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+.button {
+  cursor: pointer;
     border-radius: 4px;
     padding: 10px 32px;
     margin-right: auto;
@@ -491,6 +463,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 /* Наши преимущества */
