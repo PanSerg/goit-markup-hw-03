@@ -165,7 +165,6 @@ ul {
 }
 
 .pictures {
-
   border: 1px solid #EEEEEE;
   background: #FFFFFF;
   padding-top: 20px;
@@ -271,10 +270,11 @@ ul {
   color: var(--accent-color);
 }
 
-.site-nav-link-p:hover,
-.site-nav-link-p:focus {
-  color: #212121;
-  background-color: #F5F5F5;
+.focus-menu:hover,
+.focus-menu:focus {
+  cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .contact {
@@ -418,9 +418,9 @@ ul {
 
 .botton-tools {
     width: 112px;
-      height: 38px;
-      left: 726px;
-      top: 174px;
+    height: 38px;
+    left: 726px;
+    top: 174px;
 }
 
 .button-design {
